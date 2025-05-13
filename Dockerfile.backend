@@ -7,14 +7,14 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copy the requirements file into the container at /app
-COPY ./skychart_project/skychart_api/requirements.txt /app/requirements.txt
+COPY ./skychart_api/requirements.txt /app/requirements.txt
 
 # Install any needed packages specified in requirements.txt
 # Using --no-cache-dir to reduce image size
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the local skychart_api directory contents into the container at /app
-COPY ./skychart_project/skychart_api/src /app/src
+COPY ./skychart_api/src /app/src
 
 # Make port 5000 available to the world outside this container
 # Railway will automatically use the PORT environment variable if set, or default to this.
