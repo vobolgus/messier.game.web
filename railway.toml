@@ -8,7 +8,7 @@
   name = "skychart-api" # This name will be used in the Railway UI
   # Tells Railway to use this Dockerfile for the 'skychart-api' service.
   # Path is relative to the repository root.
-  dockerfilePath = "skychart_project/Dockerfile.backend"
+  dockerfilePath = "Dockerfile.backend"
   # The start command will be taken from the CMD instruction in your Dockerfile.backend.
   # If Railway doesn't pick it up, you may need to set it in the Railway UI for this service:
   # e.g., "python src/main.py" or for production "gunicorn src.main:app --bind 0.0.0.0:$PORT"
@@ -18,7 +18,7 @@
   name = "skychart-frontend" # This name will be used in the Railway UI
   # Tells Railway to use this Dockerfile for the 'skychart-frontend' service.
   # Path is relative to the repository root.
-  dockerfilePath = "skychart_project/Dockerfile.frontend"
+  dockerfilePath = "Dockerfile.frontend"
   # The start command will be taken from the CMD instruction in your Dockerfile.frontend.
   # (which is "nginx -g 'daemon off;'")
 
