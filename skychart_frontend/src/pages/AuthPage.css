@@ -1,0 +1,38 @@
+.auth-page-container {
+    /* Uses .form-container from App.css */
+    /* Add any specific styles for the auth page wrapper if needed */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top if content is short */
+    padding-top: 3rem; /* Add some space from the navbar */
+    min-height: calc(100vh - 150px); /* Adjust based on nav/footer height */
+}
+
+.auth-form {
+    /* .form-container styles are applied from App.css */
+    /* You can add overrides or additional styles here */
+    width: 100%;
+    max-width: 450px; /* Consistent width for auth forms */
+}
+
+.auth-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.auth-switch-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #b0b0d0;
+}
+
+.auth-switch-link a {
+    color: #9090ff;
+    text-decoration: underline;
+}
+
+.auth-switch-link a:hover {
+    color: #c0c0ff;
+}
+

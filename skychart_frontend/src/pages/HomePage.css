@@ -1,0 +1,99 @@
+.homepage-container {
+  padding: 0; /* Remove padding if App.css container handles it */
+}
+
+.hero-section {
+  background: linear-gradient(rgba(15, 15, 35, 0.7), rgba(15, 15, 35, 0.9)), url("https://source.unsplash.com/random/1600x900/?nebula,galaxy");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+  border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+  margin-bottom: 2rem; /* Space below hero */
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.hero-section .subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #d0d0ff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.play-button {
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  background-color: #7070ff; /* Brighter accent color */
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.play-button:hover {
+  background-color: #9090ff;
+  transform: translateY(-2px);
+}
+
+.scoreboard-preview-section, .features-section {
+  padding: 2rem;
+  background-color: rgba(25, 25, 55, 0.5); /* Slightly lighter background for sections */
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.scoreboard-preview-section h2, .features-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #e0e0ff;
+}
+
+.view-all-scores-link {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #a0a0ff;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+
+.view-all-scores-link:hover {
+  color: #c0c0ff;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-item {
+  background-color: rgba(35, 35, 75, 0.6);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #4a4a7a;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  color: #d0d0ff;
+  margin-bottom: 0.75rem;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #b0b0d0;
+  line-height: 1.5;
+}
+

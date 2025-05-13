@@ -1,0 +1,108 @@
+.game-page-container {
+  padding: 1rem;
+}
+
+.game-settings {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(25, 25, 55, 0.5);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.game-settings label {
+  margin-right: 0.5rem;
+  color: #c0c0ff;
+}
+
+.game-settings select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #1a1a3a;
+  color: #e0e0e0;
+  border: 1px solid #3a3a6a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.language-toggle-button {
+  background-color: #303070;
+  color: #e0e0e0;
+  border: 1px solid #5050a0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.language-toggle-button:hover {
+  background-color: #5050a0;
+}
+
+.game-area {
+  background-color: rgba(20, 20, 40, 0.7);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* .image-display, .input-controls, .game-controls, .game-info are in App.css */
+/* Add any GamePage specific overrides or additional styles here */
+
+.game-over-summary {
+  padding: 2rem;
+  text-align: center;
+}
+
+.game-over-summary h3 {
+  font-size: 2.5rem;
+  color: #ff7070; /* Or a celebratory color */
+  margin-bottom: 1rem;
+}
+
+.game-over-summary p {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.game-over-summary .form-button {
+  margin-top: 1.5rem;
+  width: auto; /* Don't force full width for play again button */
+  padding: 0.8rem 2rem;
+}
+
+/* Ensure input-controls form elements are styled as per App.css .form-container if needed */
+.input-controls label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #b0b0d0;
+  text-align: center; /* Center label for game input */
+}
+
+.input-controls input[type="number"] {
+  width: calc(60% - 22px); /* Adjust width as needed */
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #3a3a6a;
+  border-radius: 4px;
+  background-color: #1a1a3a;
+  color: #e0e0e0;
+  font-size: 1rem;
+  text-align: center;
+  display: block; /* Center the input */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-controls button {
+    display: block; /* Center the button */
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; /* Don't force full width */
+}
+
+
